@@ -25,7 +25,7 @@ public class App {
             pessoa.setAltura(tec.nextDouble());
             System.out.println("Peso: ");
             pessoa.setPeso(tec.nextDouble());
-            tec.nextLine(); //Adicionar no final para pular reiniciar o loop
+            tec.nextLine();
         }
         
         for (int i = 2; i >= 0; --i){
