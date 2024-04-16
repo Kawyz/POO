@@ -13,8 +13,8 @@ public class App {
     public static void main (String[] args){
         DecimalFormat df = new DecimalFormat ("0.00");
 
-        Pessoa pessoa = new Pessoa(); //Pessoa é a usado p acessar o outro programa com esse nome
-        pessoa.altura = 1.75; //pessoa: identificação e .altura: membro
+        Pessoa pessoa = new Pessoa();
+        pessoa.altura = 1.75; 
         pessoa.peso = 78;
         
         System.out.println("Imc: " + df.format(pessoa.calcularImc()));
